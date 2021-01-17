@@ -1,0 +1,62 @@
+.logo{
+    width: 250px;
+}
+
+.nav-position{
+    padding-left: 500px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Manual Responsive Code */
+@media (max-width: 768px){
+    .card-info{
+        text-align: center;
+    }
+}
+
+@media(max-width: 968px){
+    .price{
+        font-size: 105px;
+    }
+}
+
+.intro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+}
+
+p{
+    
+    font-size: 17px;
+
+}
+
+/* Button Customization */
+.buy{
+    text-decoration: none;;
+    background-image:linear-gradient(45deg, rgba(109, 153, 51, 0.87),rgba(107, 165, 30, 0.87)) ;
+    padding:17px 33px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+}
+
+/* Button Customization */
+.buy1{
+    text-decoration: none;;
+    background-image:linear-gradient(45deg, rgba(109, 153, 51, 0.87),rgba(107, 165, 30, 0.87)) ;
+    padding:20px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 0;
+    color: white;
+    font-weight: 500;
+    /* margin-left: 8px; */
+}
+
+
